@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example 4</title>
+  <script src="../js/ex4.js" defer></script>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <h2>Sample Form</h2>
+
+<form id="infoForm">
+
+   <label>Name:</label>
+   <input type="text" name="name"><br><br>
+
+   <label>Email:</label>
+   <input type="email" name="email" placeholder="name@domain"><br><br>
+
+   <label>Payment Type:</label><br>
+   <input type="radio" name="payment" value="cash"> Cash<br>
+   <input type="radio" name="payment" value="credit"> Credit Card<br>
+   <input type="radio" name="payment" value="gpay"> Google Pay<br>
+   <input type="radio" name="payment" value="apple"> Apple Pay<br><br>
+
+   <input type="checkbox" name="promotion" value="on">
+   Sign me up for special promotions<br><br>
+
+   <label>Preferred Location:</label>
+   <select name="location">
+      <option value="la">Los Angeles</option>
+      <option value="oc">Orange County</option>
+      <option value="riv">Riverside</option>
+      <option value="sd">San Diego</option>
+   </select><br><br>
+
+   <button type="submit">Submit</button>
+   <button type="reset">Cancel</button>
+
+</form>
+
+<table id="resultsTable"></table>
+
+<p><a href="../index.html">Back to Index</a></p>
+</body>
+</html>
